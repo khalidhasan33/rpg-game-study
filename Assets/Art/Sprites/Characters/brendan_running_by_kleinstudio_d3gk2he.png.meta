@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 6a2f3ec1717a8df4a900e17aad590114
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1881342658732951172
+    second: brendan_running_by_kleinstudio_d3gk2he_0
+  - first:
+      213: -6244630553325902327
+    second: brendan_running_by_kleinstudio_d3gk2he_1
+  - first:
+      213: -3970285135158992014
+    second: brendan_running_by_kleinstudio_d3gk2he_2
+  - first:
+      213: -6230529968395908062
+    second: brendan_running_by_kleinstudio_d3gk2he_3
+  - first:
+      213: 4341500368686232062
+    second: brendan_running_by_kleinstudio_d3gk2he_4
+  - first:
+      213: -2517804660377498604
+    second: brendan_running_by_kleinstudio_d3gk2he_5
+  - first:
+      213: -3363554896408558042
+    second: brendan_running_by_kleinstudio_d3gk2he_6
+  - first:
+      213: -5508681905195011090
+    second: brendan_running_by_kleinstudio_d3gk2he_7
+  - first:
+      213: -8800378803521147092
+    second: brendan_running_by_kleinstudio_d3gk2he_8
+  - first:
+      213: 4366234006768927803
+    second: brendan_running_by_kleinstudio_d3gk2he_9
+  - first:
+      213: -6478036611334262973
+    second: brendan_running_by_kleinstudio_d3gk2he_10
+  - first:
+      213: 6896850464227949661
+    second: brendan_running_by_kleinstudio_d3gk2he_11
+  - first:
+      213: -4692497367532458538
+    second: brendan_running_by_kleinstudio_d3gk2he_12
+  - first:
+      213: 5124195912674898498
+    second: brendan_running_by_kleinstudio_d3gk2he_13
+  - first:
+      213: -3718137935413247154
+    second: brendan_running_by_kleinstudio_d3gk2he_14
+  - first:
+      213: -6860058524828531214
+    second: brendan_running_by_kleinstudio_d3gk2he_15
+  - first:
+      213: -1967800789728466928
+    second: brendan_running_by_kleinstudio_d3gk2he_16
+  - first:
+      213: -4731133176521587088
+    second: brendan_running_by_kleinstudio_d3gk2he_17
+  - first:
+      213: 3142724855465209020
+    second: brendan_running_by_kleinstudio_d3gk2he_18
+  - first:
+      213: -5007859257975794502
+    second: brendan_running_by_kleinstudio_d3gk2he_19
+  - first:
+      213: 6743062066080025193
+    second: brendan_running_by_kleinstudio_d3gk2he_20
+  - first:
+      213: -2134461056291017542
+    second: brendan_running_by_kleinstudio_d3gk2he_21
+  - first:
+      213: -4154224779398132818
+    second: brendan_running_by_kleinstudio_d3gk2he_22
+  - first:
+      213: 2276477954886995874
+    second: brendan_running_by_kleinstudio_d3gk2he_23
+  - first:
+      213: 7373748716414333513
+    second: brendan_running_by_kleinstudio_d3gk2he_24
+  - first:
+      213: 6444429801368030353
+    second: brendan_running_by_kleinstudio_d3gk2he_25
+  - first:
+      213: 7011272411399280260
+    second: brendan_running_by_kleinstudio_d3gk2he_26
+  - first:
+      213: 6457338923936211332
+    second: brendan_running_by_kleinstudio_d3gk2he_27
+  - first:
+      213: -6743226499948362392
+    second: brendan_running_by_kleinstudio_d3gk2he_28
+  - first:
+      213: 6886222622897992540
+    second: brendan_running_by_kleinstudio_d3gk2he_29
+  - first:
+      213: -8935915820260903510
+    second: brendan_running_by_kleinstudio_d3gk2he_30
+  - first:
+      213: 3528255516827794870
+    second: brendan_running_by_kleinstudio_d3gk2he_31
+  - first:
+      213: 3262513518429543591
+    second: brendan_running_by_kleinstudio_d3gk2he_32
+  - first:
+      213: -1256082568051891147
+    second: brendan_running_by_kleinstudio_d3gk2he_33
+  - first:
+      213: -2595737250788875064
+    second: brendan_running_by_kleinstudio_d3gk2he_34
+  - first:
+      213: -6292180970725320538
+    second: brendan_running_by_kleinstudio_d3gk2he_35
+  - first:
+      213: -435286261425738915
+    second: brendan_running_by_kleinstudio_d3gk2he_36
+  - first:
+      213: -1618896129165687397
+    second: brendan_running_by_kleinstudio_d3gk2he_37
+  - first:
+      213: 4193579621546354853
+    second: brendan_running_by_kleinstudio_d3gk2he_38
+  - first:
+      213: 8344092209015170733
+    second: brendan_running_by_kleinstudio_d3gk2he_39
+  - first:
+      213: 4872073261540382825
+    second: brendan_running_by_kleinstudio_d3gk2he_40
+  - first:
+      213: -1874285586438777138
+    second: brendan_running_by_kleinstudio_d3gk2he_41
+  - first:
+      213: -3761256652964518744
+    second: brendan_running_by_kleinstudio_d3gk2he_42
+  - first:
+      213: 9172878146574164181
+    second: brendan_running_by_kleinstudio_d3gk2he_43
+  - first:
+      213: 6868093923532109818
+    second: brendan_running_by_kleinstudio_d3gk2he_44
+  - first:
+      213: -934867667149546860
+    second: brendan_running_by_kleinstudio_d3gk2he_45
+  - first:
+      213: 7924909492361288662
+    second: brendan_running_by_kleinstudio_d3gk2he_46
+  - first:
+      213: 907064490833265397
+    second: brendan_running_by_kleinstudio_d3gk2he_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486019a2e2fdb1a10800000000000000
+      internalID: 1881342658732951172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9066573e89d9659a0800000000000000
+      internalID: -6244630553325902327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273a5dd74b6b6e8c0800000000000000
+      internalID: -3970285135158992014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c06572106b889a0800000000000000
+      internalID: -6230529968395908062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef135c3459b104c30800000000000000
+      internalID: 4341500368686232062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c40645006fe0dd0800000000000000
+      internalID: -2517804660377498604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626ca0184a04251d0800000000000000
+      internalID: -3363554896408558042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3ba345efa3d83b0800000000000000
+      internalID: -5508681905195011090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fae37ca16ced580800000000000000
+      internalID: -8800378803521147092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 64
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3441b322baf79c30800000000000000
+      internalID: 4366234006768927803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f227b26046916a0800000000000000
+      internalID: -6478036611334262973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 64
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7b45c4f886bf50800000000000000
+      internalID: 6896850464227949661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dda5c29186e0eeb0800000000000000
+      internalID: -4692497367532458538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242fe7e880dcc1740800000000000000
+      internalID: 5124195912674898498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e430acd4f35866cc0800000000000000
+      internalID: -3718137935413247154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brendan_running_by_kleinstudio_d3gk2he_15
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f584392e1d2cc0a0800000000000000
+      internalID: -6860058524828531214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
