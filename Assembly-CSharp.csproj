@@ -109,6 +109,7 @@
     <Compile Include="Assets\Creator Kit - RPG\Scripts\UI\SpriteUIElement.cs" />
     <Compile Include="Assets\Creator Kit - RPG\Scripts\UI\TranslationAnimation.cs" />
     <Compile Include="Assets\Creator Kit - RPG\Scripts\UI\UserInterfaceAudio.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
