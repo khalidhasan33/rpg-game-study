@@ -71,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        bool isRunning = Input.GetKey(KeyCode.Z);
+        bool isRunning = Input.GetKey(KeyCode.X);
         if (isRunning)
         {
             myRigidbody.MovePosition(myRigidbody.position + movement * runningSpeed * Time.fixedDeltaTime);
