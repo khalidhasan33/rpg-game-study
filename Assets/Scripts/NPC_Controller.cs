@@ -119,10 +119,7 @@ public class NPC_Controller : MonoBehaviour
             animator.SetBool("moving", false);
             if (Input.GetKeyDown(KeyCode.Z))
             {
-                //dialogueTrigger.TriggerDialogue();
-                Debug.Log("First");
                 onDialog = true;
-                //dialogueManager.DisplayNextSentence();
             }
         }
     }
@@ -136,6 +133,7 @@ public class NPC_Controller : MonoBehaviour
         }
         if (collision.collider.tag == "Player")
         {
+            dialogueManager.EndDialogue();
             onDialog = false;
             firstSentence = true;
         }

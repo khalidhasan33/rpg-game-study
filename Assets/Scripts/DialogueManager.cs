@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    public bool onDialogue = false;
 
     private Queue<string> sentences;
 
@@ -20,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         animator.SetBool("isOpen", true);
+        onDialogue = true;
         nameText.text = dialogue.nameNPC;
         sentences.Clear();
         foreach(string sentence in dialogue.sentences)
@@ -52,8 +54,9 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void EndDialogue()
+    public void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        onDialogue = false;
     }
 }

@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float runningSpeed = 8f;
+    public DialogueManager dialogueManager;
     private Rigidbody2D myRigidbody;
     private Vector2  movement;
     private Animator animator;
@@ -21,46 +22,54 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        movement = Vector2.zero;
-        float xVel = Input.GetAxisRaw("Horizontal");
-        float yVel = Input.GetAxisRaw("Vertical");
+        if (!dialogueManager.onDialogue)
+        {
+            movement = Vector2.zero;
+            float xVel = Input.GetAxisRaw("Horizontal");
+            float yVel = Input.GetAxisRaw("Vertical");
 
-        //if key is pressed on Horizontal save time it was pressed
-        if (xVel != 0)
-        {
-            if (timeDownX == 0.0f) //if we don't have a stored time for it
-                timeDownX = Time.time;
-        }
-        else
-        {
-            timeDownX = 0.0f; // reset time if no button is being pressed
-        }
+            //if key is pressed on Horizontal save time it was pressed
+            if (xVel != 0)
+            {
+                if (timeDownX == 0.0f) //if we don't have a stored time for it
+                    timeDownX = Time.time;
+            }
+            else
+            {
+                timeDownX = 0.0f; // reset time if no button is being pressed
+            }
 
-        //if key is pressed on vertical save time it was pressed
-        if (yVel != 0)
-        {
-            if (timeDownY == 0.0f) //if we don't have a stored time for it
-                timeDownY = Time.time;
-        }
-        else
-        {
-            timeDownY = 0.0f; // reset time if no button is being pressed
-        }
+            //if key is pressed on vertical save time it was pressed
+            if (yVel != 0)
+            {
+                if (timeDownY == 0.0f) //if we don't have a stored time for it
+                    timeDownY = Time.time;
+            }
+            else
+            {
+                timeDownY = 0.0f; // reset time if no button is being pressed
+            }
 
-        if (timeDownX > timeDownY)
-        {
-            movement = Vector2.right * xVel;
-        }
-        else if (timeDownX < timeDownY)
-        {
-            movement = Vector2.up * yVel;
-        }
+            if (timeDownX > timeDownY)
+            {
+                movement = Vector2.right * xVel;
+            }
+            else if (timeDownX < timeDownY)
+            {
+                movement = Vector2.up * yVel;
+            }
 
-        if (movement != Vector2.zero)
-        {
-            animator.SetFloat("moveX", movement.x);
-            animator.SetFloat("moveY", movement.y);
-            animator.SetBool("moving", true);
+            if (movement != Vector2.zero)
+            {
+                animator.SetFloat("moveX", movement.x);
+                animator.SetFloat("moveY", movement.y);
+                animator.SetBool("moving", true);
+            }
+            else
+            {
+                animator.SetBool("moving", false);
+                animator.SetBool("running", false);
+            }
         }
         else
         {
