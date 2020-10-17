@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float runningSpeed = 8f;
     public DialogueManager dialogueManager;
     private Rigidbody2D myRigidbody;
-    private Vector2  movement;
+    private Vector2 movement;
     private Animator animator;
 
-    private float timeDownX = 0.0f; //time which horizontal was pressed
-    private float timeDownY = 0.0f; //time which vertical was pressed
+    public float moveSpeed = 5f;
+    public float runningSpeed = 8f;
+    public float lastX;
+    public float lastY;
+
+    private float timeDownX = 0.0f;
+    private float timeDownY = 0.0f;
 
     void Start()
     {
@@ -27,29 +30,24 @@ public class PlayerMovement : MonoBehaviour
             movement = Vector2.zero;
             float xVel = Input.GetAxisRaw("Horizontal");
             float yVel = Input.GetAxisRaw("Vertical");
-
-            //if key is pressed on Horizontal save time it was pressed
             if (xVel != 0)
             {
-                if (timeDownX == 0.0f) //if we don't have a stored time for it
+                if (timeDownX == 0.0f)
                     timeDownX = Time.time;
             }
             else
             {
-                timeDownX = 0.0f; // reset time if no button is being pressed
+                timeDownX = 0.0f;
             }
-
-            //if key is pressed on vertical save time it was pressed
             if (yVel != 0)
             {
-                if (timeDownY == 0.0f) //if we don't have a stored time for it
+                if (timeDownY == 0.0f)
                     timeDownY = Time.time;
             }
             else
             {
-                timeDownY = 0.0f; // reset time if no button is being pressed
+                timeDownY = 0.0f;
             }
-
             if (timeDownX > timeDownY)
             {
                 movement = Vector2.right * xVel;
@@ -58,11 +56,12 @@ public class PlayerMovement : MonoBehaviour
             {
                 movement = Vector2.up * yVel;
             }
-
             if (movement != Vector2.zero)
             {
                 animator.SetFloat("moveX", movement.x);
+                lastX = movement.x;
                 animator.SetFloat("moveY", movement.y);
+                lastY = movement.y;
                 animator.SetBool("moving", true);
             }
             else

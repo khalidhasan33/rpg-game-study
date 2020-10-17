@@ -5,21 +5,22 @@ using UnityEngine;
 public class NPC_Controller : MonoBehaviour
 {
     private Animator animator;
-    public float speed;
-    private float waitTime;
-    public float startWaitTime;
-    public bool move;
-    private bool isMoving = true;
     private DialogueTrigger dialogueTrigger;
     public DialogueManager dialogueManager;
+    public PlayerMovement playerMovement;
 
     public Transform[] moveSpots;
     private int randomSpot;
+    public bool move;
+    public float speed;
+    public float startWaitTime;
+    private float waitTime;
 
     private float lastX;
     private float lastY;
     private bool onDialog = false;
     private bool firstSentence = true;
+    private bool isMoving = true;
 
     // Start is called before the first frame update
     void Start()
@@ -102,40 +103,34 @@ public class NPC_Controller : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (collision.collider.tag == "Player")
-        {
-            isMoving = false;
-            animator.SetBool("moving", false);
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.collider.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             isMoving = false;
             animator.SetBool("moving", false);
             if (Input.GetKeyDown(KeyCode.Z))
             {
+                animator.SetFloat("moveX", -playerMovement.lastX);
+                animator.SetFloat("moveY", -playerMovement.lastY);
                 onDialog = true;
             }
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (collision.collider.tag == "Player" && move)
-        {
-            isMoving = true;
-            animator.SetBool("moving", true);
-        }
-        if (collision.collider.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             dialogueManager.EndDialogue();
             onDialog = false;
             firstSentence = true;
         }
+        if (other.gameObject.tag == "Player" && move)
+        {
+            isMoving = true;
+            animator.SetBool("moving", true);
+        }
     }
+
 }
