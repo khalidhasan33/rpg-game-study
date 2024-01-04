@@ -19,8 +19,10 @@ public class NPC_Controller : MonoBehaviour
     private float lastX;
     private float lastY;
     private bool onDialog = false;
-    private bool firstSentence = true;
+    private bool onDialogOnRange = false;
     private bool isMoving = true;
+    private float nextDialogueDelay = 0.5f;
+    private float nextDialogue = 0.15f;
 
     // Start is called before the first frame update
     void Start()
@@ -86,35 +88,32 @@ public class NPC_Controller : MonoBehaviour
                 }
             }
         }
-        if (onDialog)
+        if (onDialogOnRange)
         {
-            if (Input.GetKeyDown(KeyCode.Z))
+            if (Input.GetKeyDown(KeyCode.Z) && Time.time > nextDialogue)
             {
-                if (firstSentence)
+                animator.SetFloat("moveX", -playerMovement.lastX);
+                animator.SetFloat("moveY", -playerMovement.lastY);
+                if (!dialogueManager.onDialogue)
                 {
                     dialogueTrigger.TriggerDialogue();
-                    firstSentence = false;
                 }
                 else
                 {
                     dialogueManager.DisplayNextSentence();
                 }
+                nextDialogue = Time.time + nextDialogueDelay;
             }
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnCollisionStay2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player")
         {
             isMoving = false;
             animator.SetBool("moving", false);
-            if (Input.GetKeyDown(KeyCode.Z))
-            {
-                animator.SetFloat("moveX", -playerMovement.lastX);
-                animator.SetFloat("moveY", -playerMovement.lastY);
-                onDialog = true;
-            }
+            onDialogOnRange = true;
         }
     }
 
@@ -123,8 +122,7 @@ public class NPC_Controller : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             dialogueManager.EndDialogue();
-            onDialog = false;
-            firstSentence = true;
+            onDialogOnRange = false;
         }
         if (other.gameObject.tag == "Player" && move)
         {

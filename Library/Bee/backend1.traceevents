@@ -1,0 +1,305 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1704298531854181, "dur":1315, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531855509, "dur":190, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531855760, "dur":207, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531855990, "dur":2688, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531858679, "dur":126737, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531985417, "dur":142, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531985600, "dur":50, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531985717, "dur":943, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1704298531856410, "dur":2273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704298531858685, "dur":1107, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704298531859837, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1704298531860105, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531860280, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531860412, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531860642, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531860958, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531861139, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531861241, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531861358, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531861571, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531861736, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531861869, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531862083, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531862222, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531862361, "dur":542, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\Unity Project\\rpg-game-study\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1704298531859836, "dur":3212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1704298531863785, "dur":120179, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1704298531984729, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1704298531984727, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1704298531984811, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1704298531856521, "dur":2192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531858719, "dur":170, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531858890, "dur":939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531861491, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1704298531862663, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531863076, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1704298531866173, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531866786, "dur":6373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531873216, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531875093, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531876153, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531876258, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531877352, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531878711, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531880302, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531882028, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531882109, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531883714, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531883931, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531886509, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531886603, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531890357, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531890433, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531892519, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531892594, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531893829, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531894062, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531896388, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704298531896492, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531898930, "dur":4770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1704298531904597, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1704298531906014, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1704298531909370, "dur":76063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531856544, "dur":2212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531858757, "dur":175, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531858932, "dur":863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531860302, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1704298531863365, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1704298531866234, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1704298531867615, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531867816, "dur":4117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531872106, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531873123, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531875173, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531876375, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531877587, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531877736, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531878896, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531878981, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531880361, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531880498, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531882387, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531882518, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531883711, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531883928, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531885999, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531889929, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531892512, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531893749, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531895795, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531893993, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531895916, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704298531896046, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531898555, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531900913, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1704298531903372, "dur":6107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1704298531909497, "dur":75935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531856432, "dur":2254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531858690, "dur":189, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531858879, "dur":917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531861389, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1704298531862654, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531863073, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1704298531865552, "dur":5667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531871245, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531871567, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531873064, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531873154, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531875393, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531875496, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531876653, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531876742, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531878126, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531879213, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531879281, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531880481, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531882493, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531880588, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531882606, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531882911, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531884343, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531885794, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531886216, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531890157, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531891551, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531891631, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531892922, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531894426, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531896598, "dur":676, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531897295, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531898961, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704298531899259, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531901082, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531903333, "dur":16812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1704298531920166, "dur":65253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531856471, "dur":2227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531858700, "dur":167, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531858867, "dur":181, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531859048, "dur":749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531861189, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1704298531862595, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704298531863854, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1704298531864615, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1704298531866766, "dur":4859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531871670, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531873122, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531874940, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531876111, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531876199, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531877421, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531877507, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531878676, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531879778, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531881097, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531881349, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531883202, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531884671, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531886074, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531888317, "dur":749, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531889106, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531891168, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531892809, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531892935, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531894456, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531896364, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531896455, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531898441, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531901069, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1704298531903566, "dur":934, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704298531904523, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1704298531906437, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1704298531910961, "dur":74472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531856491, "dur":2211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531858704, "dur":236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531858940, "dur":890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531861432, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1704298531862589, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1704298531864041, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1704298531864880, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531865712, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1704298531867046, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531867228, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531869744, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531870102, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531870167, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531872971, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531873774, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531873864, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531875545, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531875672, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531876737, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531878270, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531879671, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531881034, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531881103, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531883112, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531884804, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531884989, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531886134, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531889380, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531890938, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531892918, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531894217, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531894341, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531896347, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531896469, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531898965, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531901234, "dur":899, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531902155, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704298531903563, "dur":935, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531904511, "dur":458, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531904974, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1704298531908252, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704298531908372, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1704298531910150, "dur":75263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531856449, "dur":2244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531858695, "dur":182, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531858878, "dur":77, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531858955, "dur":838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531861038, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1704298531863101, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1704298531863825, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531863918, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1704298531864732, "dur":599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531866320, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1704298531867562, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531867737, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531869296, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531869520, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531869597, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531872985, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531874410, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531875603, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531875674, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531876746, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531876839, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531878318, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531878419, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531879425, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531879527, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531880896, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531882566, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531884017, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531884183, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531885304, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531885384, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531886417, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531890217, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531891964, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531895866, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531893324, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531895977, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531896166, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531897932, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531898170, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531900191, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704298531900376, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704298531902469, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1704298531902467, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1704298531904566, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1704298531905386, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1704298531908480, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1704298531909666, "dur":75751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531856511, "dur":2196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531858709, "dur":318, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531859028, "dur":783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531861245, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1704298531862990, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1704298531863651, "dur":1675, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531865706, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1704298531866415, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531866777, "dur":4991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531871812, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531873053, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531873125, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531875393, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531875499, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531876899, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531878548, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531879747, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531881032, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531882629, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531882911, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531884703, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531886214, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531889796, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531889873, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531891552, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531891627, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531893015, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531893174, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531894611, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531894781, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531896648, "dur":624, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531897293, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531899038, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531899256, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531901170, "dur":963, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704298531902153, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704298531903540, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1704298531906797, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sawma/Documents/Game Build/Dialogue Mechanic RPG/New Unity Project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1704298531911372, "dur":74042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704298531988316, "dur":967, "ph":"X", "name": "ProfilerWriteOutput" }
+,

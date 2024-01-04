@@ -453,7 +453,7 @@ TextureImporter:
       213: -6966362048130536357
     second: AnotherRPG_149
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -470,9 +470,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -482,8 +485,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -495,7 +498,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -504,10 +507,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -519,6 +527,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -531,6 +540,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -543,6 +553,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3708,9 +3745,159 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      AnotherRPG_0: 6822938681688513462
+      AnotherRPG_1: 3528331864877596519
+      AnotherRPG_10: -8403876612933335269
+      AnotherRPG_100: 2160223908074975359
+      AnotherRPG_101: 2315752314703167760
+      AnotherRPG_102: -6070445181388840362
+      AnotherRPG_103: 7137181127588619869
+      AnotherRPG_104: -9159610920757409166
+      AnotherRPG_105: -3394881434887643255
+      AnotherRPG_106: 6100001507148880427
+      AnotherRPG_107: 5053981772655704351
+      AnotherRPG_108: -6204136995073801466
+      AnotherRPG_109: -248207737323542388
+      AnotherRPG_11: -7019223194057246825
+      AnotherRPG_110: -354187759581729709
+      AnotherRPG_111: -2210378347024810006
+      AnotherRPG_112: 1964601834447895913
+      AnotherRPG_113: -8616140819878752064
+      AnotherRPG_114: -2526438964974550817
+      AnotherRPG_115: -7774128765038177519
+      AnotherRPG_116: -4179654542082012542
+      AnotherRPG_117: 301501171969178503
+      AnotherRPG_118: -3421483378951831312
+      AnotherRPG_119: -807933407888587603
+      AnotherRPG_12: -1357116157370724730
+      AnotherRPG_120: -6909468358784593643
+      AnotherRPG_121: 2723049720649933103
+      AnotherRPG_122: -3132261036369919665
+      AnotherRPG_123: 80437224316378820
+      AnotherRPG_124: 5537466368262678494
+      AnotherRPG_125: 4244206166151734969
+      AnotherRPG_126: -7089890958825553080
+      AnotherRPG_127: -5392430170443249709
+      AnotherRPG_128: 4958336745525767314
+      AnotherRPG_129: -3126130214818955279
+      AnotherRPG_13: -7063782672113176313
+      AnotherRPG_130: 4556659939264401857
+      AnotherRPG_131: 1537100189776482524
+      AnotherRPG_132: -3339311908821744201
+      AnotherRPG_133: 2767000699383541885
+      AnotherRPG_134: 8882425204608429977
+      AnotherRPG_135: -3760938495400601250
+      AnotherRPG_136: 6728011977194153445
+      AnotherRPG_137: -4789100262885688437
+      AnotherRPG_138: 4328839421082022674
+      AnotherRPG_139: 4049750325732255638
+      AnotherRPG_14: -6857363777087265359
+      AnotherRPG_140: -737080646858929409
+      AnotherRPG_141: 2452201606040772339
+      AnotherRPG_142: -125334710670027388
+      AnotherRPG_143: -8699021385403772661
+      AnotherRPG_144: 8877614592458305580
+      AnotherRPG_145: -8300684843371601217
+      AnotherRPG_146: -8430276377109857565
+      AnotherRPG_147: -6039731744066766173
+      AnotherRPG_148: -8066871718557166641
+      AnotherRPG_149: -6966362048130536357
+      AnotherRPG_15: -4782638018566279881
+      AnotherRPG_16: 6765756790870790724
+      AnotherRPG_17: 267536049145750280
+      AnotherRPG_18: 6700309783318396836
+      AnotherRPG_19: -905826138509573497
+      AnotherRPG_2: 7498567902559909316
+      AnotherRPG_20: -2962932281234504975
+      AnotherRPG_21: 7185110769184281885
+      AnotherRPG_22: 4173456969935684637
+      AnotherRPG_23: 6688210975536000994
+      AnotherRPG_24: -5323254345683166498
+      AnotherRPG_25: -1467676101957010535
+      AnotherRPG_26: -6936782091916730317
+      AnotherRPG_27: 8499741269457616311
+      AnotherRPG_28: 1024802277108951578
+      AnotherRPG_29: -4385246796603368933
+      AnotherRPG_3: 14725446077174929
+      AnotherRPG_30: 764446991542696890
+      AnotherRPG_31: -7649704683029108729
+      AnotherRPG_32: -2808163633979662144
+      AnotherRPG_33: 3656180008453440472
+      AnotherRPG_34: 6286688347612060864
+      AnotherRPG_35: 4208308215628367694
+      AnotherRPG_36: 505221424879909307
+      AnotherRPG_37: 1638306996029732876
+      AnotherRPG_38: 2914731316273464433
+      AnotherRPG_39: 5482174542728462445
+      AnotherRPG_4: -2619505619977453902
+      AnotherRPG_40: -2244118232142242395
+      AnotherRPG_41: 5675595614326534128
+      AnotherRPG_42: -9169762258019604357
+      AnotherRPG_43: -17918357109621733
+      AnotherRPG_44: -8859233094654325977
+      AnotherRPG_45: -2063927877100606996
+      AnotherRPG_46: 4047295481679138363
+      AnotherRPG_47: 3462464563152875094
+      AnotherRPG_48: 5558390536047202114
+      AnotherRPG_49: -6136946391912059074
+      AnotherRPG_5: 4728151405855727096
+      AnotherRPG_50: -7019805529040276344
+      AnotherRPG_51: 2380312363716734292
+      AnotherRPG_52: 1691241305814053176
+      AnotherRPG_53: 2400958221560278732
+      AnotherRPG_54: -2838386532561382804
+      AnotherRPG_55: 7927622886608711058
+      AnotherRPG_56: 7281986692939823057
+      AnotherRPG_57: -7764082645094506540
+      AnotherRPG_58: 4071264697385488752
+      AnotherRPG_59: -6707265266512369240
+      AnotherRPG_6: 4574938694286711182
+      AnotherRPG_60: 7254673516347144294
+      AnotherRPG_61: -899074609395898327
+      AnotherRPG_62: -5945797100434898642
+      AnotherRPG_63: -1820332778198003205
+      AnotherRPG_64: -2149860040391226929
+      AnotherRPG_65: 5258159195539507561
+      AnotherRPG_66: -7087826749192922460
+      AnotherRPG_67: 6666660252261549802
+      AnotherRPG_68: 8709469926591520698
+      AnotherRPG_69: -6888248827260957363
+      AnotherRPG_7: 7894090644762589337
+      AnotherRPG_70: 6717364010236280175
+      AnotherRPG_71: -4749835314326566046
+      AnotherRPG_72: 7257422748730903568
+      AnotherRPG_73: 1370406230136231435
+      AnotherRPG_74: -2744118107513135741
+      AnotherRPG_75: -7012773201821215323
+      AnotherRPG_76: -9086636417263880813
+      AnotherRPG_77: -6187416385931378620
+      AnotherRPG_78: 4412714432318833270
+      AnotherRPG_79: -4356694106957216977
+      AnotherRPG_8: 564873430493066086
+      AnotherRPG_80: 8118157327337225528
+      AnotherRPG_81: -5760794799046110076
+      AnotherRPG_82: -759510785035321240
+      AnotherRPG_83: -2218382174174281869
+      AnotherRPG_84: 8677715733870734164
+      AnotherRPG_85: 6752559657209279088
+      AnotherRPG_86: -6492267918418698274
+      AnotherRPG_87: -5066846205331094866
+      AnotherRPG_88: 632595893514252417
+      AnotherRPG_89: -884065841477144079
+      AnotherRPG_9: 4546683752400932408
+      AnotherRPG_90: 8582963892360486656
+      AnotherRPG_91: -7253733639047701242
+      AnotherRPG_92: 2478743899386239976
+      AnotherRPG_93: 6470428574272395867
+      AnotherRPG_94: -7011333073478307907
+      AnotherRPG_95: 4411118064221254832
+      AnotherRPG_96: -8715116851419835906
+      AnotherRPG_97: -6131897898339082137
+      AnotherRPG_98: 919988052023165133
+      AnotherRPG_99: 12699288942315402
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
